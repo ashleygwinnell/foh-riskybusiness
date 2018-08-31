@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="22" height="9" tilewidth="4" tileheight="4" backgroundcolor="#000000" nextobjectid="62">
+ <tileset firstgid="1" source="test.tsx"/>
+ <tileset firstgid="26" source="objs.tsx"/>
+ <layer name="bg" width="22" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,3,3,3,3,3,23,24,3,3,3,3,3,3,3,24,24,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="solid" width="22" height="9">
+  <data encoding="csv">
+13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12
+</data>
+ </layer>
+ <objectgroup name="objects" offsetx="0" offsety="4">
+  <object id="7" gid="21" x="20" y="28" width="3" height="4"/>
+  <object id="8" gid="21" x="24" y="28" width="3" height="4"/>
+  <object id="15" gid="27" x="22" y="21" width="4" height="2"/>
+  <object id="16" gid="29" x="6.0606" y="25.5151" width="3" height="6"/>
+  <object id="17" gid="26" x="78.8182" y="24" width="5" height="4"/>
+  <object id="37" gid="27" x="62" y="21" width="4" height="2"/>
+  <object id="55" gid="21" x="61" y="28" width="3" height="4"/>
+  <object id="56" gid="21" x="65" y="28" width="3" height="4"/>
+  <object id="57" gid="41" x="29" y="14" width="8" height="9"/>
+  <object id="60" gid="42" x="50" y="14" width="8" height="9"/>
+  <object id="61" gid="43" x="39" y="12" width="9" height="9"/>
+ </objectgroup>
+</map>

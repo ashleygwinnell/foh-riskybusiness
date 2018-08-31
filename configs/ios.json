@@ -1,0 +1,48 @@
+{
+	"name": "iOS",
+	"folder": "ios",
+	"platform": "ios",
+	"clean": false,
+	"defines": [
+		"USING_FMOD"
+	],
+	"include_dirs": [
+
+	],
+	"libs": [
+		
+	],
+	"ios": {
+        "icon": {  
+            "use_master_icon": false, 
+            "prerendered": true, 
+            "icon_72": "%PREPRODUCTION_DIR%/icon/ios/Icon-72.png",
+            "icon_72_2x": "%PREPRODUCTION_DIR%/icon/ios/Icon-72@2x.png",
+            "icon_small_50": "%PREPRODUCTION_DIR%/icon/ios/Icon-Small-50.png",
+            "icon_small_50_2x": "%PREPRODUCTION_DIR%/icon/ios/Icon-Small-50@2x.png",
+            "icon_small": "%PREPRODUCTION_DIR%/icon/ios/Icon-Small.png",
+            "icon_small_2x": "%PREPRODUCTION_DIR%/icon/ios/Icon-Small@2x.png",
+            "icon": "%PREPRODUCTION_DIR%/icon/ios/Icon.png",
+            "icon_2x": "%PREPRODUCTION_DIR%/icon/ios/Icon@2x.png",
+            "itunes_artwork": "%PREPRODUCTION_DIR%/icon/ios/iTunesArtwork.png",
+            "itunes_artwork_2x": "%PREPRODUCTION_DIR%/icon/ios/iTunesArtwork@2x.png",
+
+            "icon_40": "%PREPRODUCTION_DIR%/icon/ios/Icon-40.png",
+            "icon_80": "%PREPRODUCTION_DIR%/icon/ios/Icon-80.png",
+            "icon_120": "%PREPRODUCTION_DIR%/icon/ios/Icon-120.png",
+            "icon_76": "%PREPRODUCTION_DIR%/icon/ios/Icon-76.png",
+            "icon_152": "%PREPRODUCTION_DIR%/icon/ios/Icon-152.png"
+        },
+        "defaults": {
+            "use_master": true,
+            "master": "%PREPRODUCTION_DIR%/icon/ios/Default-Master.png"
+        },
+        "native_libraries": [
+	        {
+		        "name": "fmod",
+		       	"os": ["lib/iphone/fmod/libfmod_iphoneos.a"],
+			    "simulator": ["lib/iphone/fmod/libfmod_iphonesimulator.a"]
+	        }
+        ]
+    }
+}
